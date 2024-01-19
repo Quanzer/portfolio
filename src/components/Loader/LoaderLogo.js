@@ -25,7 +25,7 @@ class LogoLoader extends React.Component {
           stroke={theme.body}
           stroke-width="4"
         />
-        <path
+        {/* <path
           class="letter"
           d="M217.945 123.968V132H194.566V123.968H200.65L198.395 115.799H186.056L183.526 123.968H189.884V132H168.829V123.968H174.708L183.971 92.4883H177.647V84.4561H208.683V92.4883H202.291L212.271 123.968H217.945ZM196.446 108.826L192.481 94.5049L188.209 108.826H196.446Z"
           stroke={theme.body}
@@ -158,7 +158,7 @@ class LogoLoader extends React.Component {
           stroke={theme.body}
           stroke-width="6"
           mask="url(#path-5-inside-1)"
-        />
+        /> */}
         <defs>
           <style
             dangerouslySetInnerHTML={{
