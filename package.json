@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "Quan's Site",
-  "homepage": "https://quanzer.github.io",
+  "homepage": "./",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",
