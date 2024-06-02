@@ -18,11 +18,19 @@
         },
         {
           "name": "React",
-          "iconifyClass": "simple-icons:react"
+          "iconifyClass": "logos-react"
         },
         {
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "NodeJS",
+          "iconifyClass": "logos-nodejs"
+        },
+        {
+          "name": "Spotify API",
+          "iconifyClass": "logos-spotify-icon"
         }
       ]
     },
@@ -43,12 +51,16 @@
           "iconifyClass": "logos-css-3"
         },
         {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
         },
         {
-          "name": "React",
-          "iconifyClass": "ReactJS"
+          "name": "NodeJS",
+          "iconifyClass": "logos-nodejs"
         }
       ]
     },
@@ -61,12 +73,16 @@
       "isFork": false,
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "C",
+          "iconifyClass": "logos-c"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "Arduino",
+          "iconifyClass": "logos-arduino"
+        },
+        {
+          "name": "Open CV",
+          "iconifyClass": "logos-opencv"
         }
       ]
     },
@@ -87,12 +103,20 @@
           "iconifyClass": "logos-css-3"
         },
         {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
         },
         {
-          "name": "ReactJS",
-          "iconifyClass": "simple-icons:reactjs"
+          "name": "NodeJS",
+          "iconifyClass": "logos-nodejs"
+        },
+        {
+          "name": "Spotify API",
+          "iconifyClass": "logos-spotify-icon"
         }
       ]
     }

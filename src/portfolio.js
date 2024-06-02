@@ -96,13 +96,6 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
           skillName: "HTML5",
           fontAwesomeClassname: "simple-icons:html5",
           style: {
@@ -117,8 +110,8 @@ const skills = {
           },
         },
         {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
+          skillName: "Adobe PhotoShop",
+          fontAwesomeClassname: "logos-adobe-photoshop",
           style: {
             color: "#CC6699",
           },
@@ -140,8 +133,8 @@ const skills = {
         },
 
         {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
+          skillName: "Figma",
+          fontAwesomeClassname: "logos-figma",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -173,8 +166,8 @@ const skills = {
           },
         },
         {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
+          skillName: "Tailwind",
+          fontAwesomeClassname: "logos-tailwindcss-icon",
           style: {
             color: "#CC6699",
           },
@@ -196,7 +189,7 @@ const skills = {
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "logos-nodejs",
           style: {
             color: "#339933",
           },
@@ -269,20 +262,6 @@ const skills = {
             color: "#47A248",
           },
         },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
-        },
       ],
     },
     {
@@ -295,12 +274,20 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "Adobe XD",
+          skillName: "Adobe PS",
           fontAwesomeClassname: "simple-icons:adobephotoshop",
           style: {
             color: "#0055F2",
           },
         },
+        {
+          skillName: "Cinema4D",
+          fontAwesomeClassname: "simple-icons:cinema4d",
+          style: {
+            color: "#FFFFFF",
+          },
+        },
+
         {
           skillName: "Figma",
           fontAwesomeClassname: "simple-icons:figma",
@@ -308,13 +295,7 @@ const skills = {
             color: "#F24E1E",
           },
         },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
+
         {
           skillName: "Inkscape",
           fontAwesomeClassname: "simple-icons:inkscape",
