@@ -25,8 +25,8 @@ const greeting = {
   subTitle:
     "An enthusiastic individual dedicated to contributing to comprehensive product development, with a focus on crafting sustainable and scalable social and technical systems that make a meaningful impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1XXEMTRW9jSlaQK6kdGq48FOWk7h7KC6q/view?usp=sharing",
-  portfolio_repository: "https://github.com/Quanzer/masterPortfolio",
+    "https://drive.google.com/file/d/1y4Y_jSOoh4etYCvuY5TR1COArimU_Irl/view?usp=sharing",
+  portfolio_repository: "https://github.com/Quanzer/portfolio",
   githubProfile: "https://github.com/Quanzer",
 };
 
@@ -87,12 +87,12 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
+      title: "Front-end and Design",
       fileName: "DataScienceImg",
       skills: [
         "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Experience of working with UX/UI design and optimizing user interactions",
+        "⚡ Creating complex animations and interactive components to enhance user experience",
       ],
       softwareSkills: [
         {
@@ -103,20 +103,42 @@ const skills = {
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
+          skillName: "HTML5",
+          fontAwesomeClassname: "simple-icons:html5",
           style: {
-            backgroundColor: "white",
-            color: "#D00000",
+            color: "#E34F26",
           },
         },
         {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          skillName: "CSS3",
+          fontAwesomeClassname: "fa-css3",
           style: {
-            backgroundColor: "transparent",
+            color: "#1572B6",
           },
         },
+        {
+          skillName: "Sass",
+          fontAwesomeClassname: "simple-icons:sass",
+          style: {
+            color: "#CC6699",
+          },
+        },
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
+          style: {
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "ReactJS",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+
         {
           skillName: "Python",
           fontAwesomeClassname: "ion-logo-python",
@@ -191,20 +213,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:yarn",
           style: {
             color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
           },
         },
       ],
@@ -288,9 +296,9 @@ const skills = {
       softwareSkills: [
         {
           skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
+          fontAwesomeClassname: "simple-icons:adobephotoshop",
           style: {
-            color: "#FF2BC2",
+            color: "#0055F2",
           },
         },
         {
@@ -519,146 +527,52 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Work and Volunteership",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "Along with my work experience, I have been actively involved in volunteer roles that have honed my skills in software development and project management. I served as the Director of a Hackathon at my university, California State University, Long Beach (CSULB), where I managed both logistical and creative aspects, attracting volunteers and over 100 participants. Additionally, I am a developer for the Association of Computing Machinery (ACM) at CSULB, where I work on various projects, translating designs and animations from Figma into functional websites and application",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
       experiences: [
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
+          title: "Data Entry Clerk",
+          company: "Carbide Systems",
           company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
+          logo_path: "precision_tools.jpg",
+          duration: "Mar 2021 - Aug 2021",
+          location: "Huntington Beach, California",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "I leveraged HTML/CSS and spreadsheet skills for website design and efficient data entry. Additionally, I designed and implemented a new SQL-like database system, resulting in a 50% increase in work efficiency for managing customer order details. I also conducted thorough assessments of the UPS customer informational database to ensure precise shipment and billing processes for customer orders.",
           color: "#0879bf",
         },
-        {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
-          description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-          color: "#9b1578",
-        },
-        {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
-        },
       ],
     },
-    {
-      title: "Internships",
-      experiences: [
-        {
-          title: "Machine Learning Intern",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "May 2022 - Aug 2022",
-          location: "San Francisco, USA",
-          description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
-          color: "#000000",
-        },
-        {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
-          description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
-        },
-        {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
-          location: "Work From Home",
-          description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
-        },
-      ],
-    },
+
     {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
+          title: "ACM Executive - BeachHacks Director",
+          company: "Association for Computing Machinery: CSULB",
+          company_url: "http://www.carbidesystems.net/",
+          logo_path: "acm.png",
+          duration: "Aug 2023 - April 2024",
+          location: "Long Beach, California",
           description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
+            "As the Executive Director of BeachHacks, a subsidiary event of the Association of Computing Machinery (ACM) at California State University, Long Beach (CSULB), I led the planning and execution of the hackathon, collaborating closely with ACM Executive Officers. I demonstrated strong leadership skills by recruiting and organizing a dynamic team, streamlining event operations for optimal efficiency, and ensuring a successful and impactful event.",
           color: "#4285F4",
         },
         {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
+          title: "Full Stack Developer",
+          company: "Association for Computing Machinery: CSULB",
+          company_url: "https://csulb.acm.org/",
+          logo_path: "acm.png",
+          duration: "Aug 2022 - April 2023",
+          location: "Long Beach, California",
           description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-          color: "#D83B01",
-        },
-        {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-          color: "#000000",
-        },
-        {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
-          company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
-        },
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          color: "#181717",
+            "As the Executive Director of BeachHacks, a subsidiary event of the Association of Computing Machinery (ACM) at California State University, Long Beach (CSULB), I led the planning and execution of the hackathon, collaborating closely with ACM Executive Officers. I demonstrated strong leadership skills by recruiting and organizing a dynamic team, streamlining event operations for optimal efficiency, and ensuring a successful and impactful event.",
+          color: "#4285F4",
         },
       ],
     },
@@ -669,7 +583,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects utilize a wide range of the latest technological tools. My most valuable experience involves creating full-stack and React-based applications, integrating APIs, and deploying them as web applications using cloud infrastructure.",
   avatar_image_path: "projects_image.svg",
 };
 
