@@ -165,13 +165,7 @@ const skills = {
             color: "#1572B6",
           },
         },
-        {
-          skillName: "Tailwind",
-          fontAwesomeClassname: "logos-tailwindcss-icon",
-          style: {
-            color: "#CC6699",
-          },
-        },
+
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
@@ -293,14 +287,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:figma",
           style: {
             color: "#F24E1E",
-          },
-        },
-
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
           },
         },
       ],
@@ -517,9 +503,20 @@ const experience = {
       title: "Work",
       experiences: [
         {
+          title: "Lego Robotics Coding Instructor",
+          company: "Whizara",
+          company_url: "https://www.whizara.com/",
+          logo_path: "whizara.png",
+          duration: "Oct 2024 - Present",
+          location: "Long Beach Beach, California",
+          description:
+            "I delivered engaging coding and computer science lessons to K-12 students, tailored to different skill levels using platforms like Canvas and Zoom, while managing classroom dynamics, providing personalized feedback, maintaining student records on the Whizara platform, and utilizing tools like Canva and Zoom to create interactive learning experiences that ensured student engagement and comprehension.",
+          color: "#0879bf",
+        },
+        {
           title: "Data Entry Clerk",
           company: "Carbide Systems",
-          company_url: "https://legatohealthtech.com/",
+          company_url: "https://www.carbidesystems.net/",
           logo_path: "precision_tools.jpg",
           duration: "Mar 2021 - Aug 2021",
           location: "Huntington Beach, California",
@@ -536,9 +533,9 @@ const experience = {
         {
           title: "ACM Executive - BeachHacks Director",
           company: "Association for Computing Machinery: CSULB",
-          company_url: "http://www.carbidesystems.net/",
+          company_url: "https://csulb.acm.org/",
           logo_path: "acm.png",
-          duration: "Aug 2023 - April 2024",
+          duration: "Jul 2023 - Feb 2024",
           location: "Long Beach, California",
           description:
             "As the Executive Director of BeachHacks, a subsidiary event of the Association of Computing Machinery (ACM) at California State University, Long Beach (CSULB), I led the planning and execution of the hackathon, collaborating closely with ACM Executive Officers. I demonstrated strong leadership skills by recruiting and organizing a dynamic team, streamlining event operations for optimal efficiency, and ensuring a successful and impactful event.",
@@ -549,10 +546,10 @@ const experience = {
           company: "Association for Computing Machinery: CSULB",
           company_url: "https://csulb.acm.org/",
           logo_path: "acm.png",
-          duration: "Aug 2022 - April 2023",
+          duration: "Aug 2022 - May 2023",
           location: "Long Beach, California",
           description:
-            "As the Executive Director of BeachHacks, a subsidiary event of the Association of Computing Machinery (ACM) at California State University, Long Beach (CSULB), I led the planning and execution of the hackathon, collaborating closely with ACM Executive Officers. I demonstrated strong leadership skills by recruiting and organizing a dynamic team, streamlining event operations for optimal efficiency, and ensuring a successful and impactful event.",
+            "Spearheaded the development of a full-stack music listening web application using React, Node, Express, and Spotify’s Web API, enabling real-time collaborative playlist creation, while coordinating with designers and project managers to set project direction and delegate tasks.",
           color: "#4285F4",
         },
       ],

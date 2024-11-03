@@ -200,7 +200,7 @@ class LogoLoader extends React.Component {
 
 		@-webkit-keyframes fadein{
 			from{
-				opacity: 0;
+				opacity: .5;
 			}
 			to{
 				opacity: 1;
