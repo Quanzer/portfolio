@@ -1,12 +1,15 @@
 .repo-card-div {
   color: rgb(88, 96, 105);
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+  box-shadow: rgba(88, 96, 105, 0.2) 0px 3px 15px 4px;
   padding: 2rem;
+  border-radius: 14px;
   cursor: pointer;
   flex: 1 1 25%;
+  transition: transform 0.3s ease;
 }
 .repo-card-div:hover {
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+  box-shadow: rgba(88, 96, 105, 0.2) 0px 5px 15px 4px;
+  transform: scale(1.03);
 }
 
 .repo-stats {
@@ -50,7 +53,7 @@
 
 .repo-name {
   text-align: left;
-  color: rgb(36, 41, 46);
+  color: rgb(0, 0, 0);
   font-family: "Google Sans Regular";
   margin-bottom: 0.75rem;
   font-size: 25px;

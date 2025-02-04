@@ -36,6 +36,15 @@ class Contact extends Component {
                   style={{ color: theme.secondaryText }}
                 >
                   {ContactData["description"]}
+                  <p>
+                    You can reach me at:
+                    <br />
+                    📧{" "}
+                    <strong style={{ color: "#000000" }}>
+                      19qhnguyen2@gmail.com
+                    </strong>
+                  </p>
+                  <p>Looking forward to connecting and collaborating!</p>
                 </p>
                 <SocialMedia theme={theme} />
                 <div className="resume-btn-div">

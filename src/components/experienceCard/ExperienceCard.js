@@ -7,8 +7,18 @@ class ExperienceCard extends Component {
     const theme = this.props.theme;
     return (
       <div
+        onClick={() =>
+          window.open(
+            experience["company_url"],
+            "_blank",
+            "noopener,noreferrer"
+          )
+        }
         className="experience-card"
-        style={{ border: `1px solid ${experience["color"]}` }}
+        style={{
+          border: `1px solid ${experience["color"]}`,
+          cursor: "pointer",
+        }}
       >
         <div className="experience-card-logo-div">
           <img

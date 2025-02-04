@@ -69,7 +69,7 @@ export const redTheme = {
   splashBg: "#6a040f",
 };
 
-export const blackTheme = {
+export const blackYellowTheme = {
   body: "#E5E5E5",
   text: "#14213d",
   expTxtColor: "#000a12",
@@ -167,7 +167,6 @@ export const materialDarkTheme = {
   splashBg: "#4f5b62",
 };
 
-
 export const materialLightTheme = {
   body: "#ffffff",
   text: "#4c2b91",
@@ -197,8 +196,8 @@ export const materialTealTheme = {
 };
 
 export const quanzerTheme = {
-  body: "#202931",
-  text: "#eeeeee",
+  body: "#ffffff",
+  text: "#070707",
   expTxtColor: "#000a12",
   highlight: "#4f5b62",
   dark: "#291a12",
@@ -206,7 +205,21 @@ export const quanzerTheme = {
   imageHighlight: "#607d8b",
   compImgHighlight: "#E6E6E6",
   jacketColor: "#f5e5cC",
-  headerColor: "#34515e",
-  splashBg: "#4f5b62",
+  headerColor: "#F0F0F0",
+  splashBg: "#0f0f0f",
 };
-export const chosenTheme = quanzerTheme
+
+export const blackTheme = {
+  body: "#ffffff",
+  text: "#070707",
+  expTxtColor: "#07070722",
+  highlight: "#D5D5D5",
+  dark: "#222222",
+  secondaryText: "#777777",
+  imageHighlight: "#010246",
+  compImgHighlight: "#E6E6E6",
+  jacketColor: "#0f0f0f",
+  headerColor: "#3f3f3f32",
+  splashBg: "#000000",
+};
+export const chosenTheme = blackTheme;

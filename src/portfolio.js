@@ -19,7 +19,7 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Quan Nguyen",
+  title: "Quan H. Nguyen",
   logo_name: "QuanNguyen",
   nickname: "quanzer",
   subTitle:
@@ -39,7 +39,12 @@ const socialMediaLinks = [
   // facebook: "https://www.facebook.com/laymanbrother.19/",
   // twitter: "https://twitter.com/Quan_1919",
   // instagram: "https://www.instagram.com/layman_brother/"
-
+  {
+    name: "Gmail",
+    link: "mailto:19qhnguyen2@gmail.com",
+    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
+    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+  },
   {
     name: "Github",
     link: "https://github.com/Quanzer",
@@ -58,29 +63,12 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
-  {
-    name: "Gmail",
-    link: "mailto:19qhnguyen2@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
-  },
+
   {
     name: "Twitter",
     link: "https://twitter.com/quanzxr",
     fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
-  },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/qurannguyen/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/quanacademyy/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
 ];
 
@@ -90,9 +78,9 @@ const skills = {
       title: "Front-end and Design",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with UX/UI design and optimizing user interactions",
-        "⚡ Creating complex animations and interactive components to enhance user experience",
+        "➤  Developing user friendly highly scalable models for statistical use cases",
+        "➤  Experience of working with UX/UI design and optimizing user interactions",
+        "➤  Creating complex animations and interactive components to enhance user experience",
       ],
       softwareSkills: [
         {
@@ -146,9 +134,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "➤  Building responsive website front end using React",
+        "➤  Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
+        "➤  Creating application backend in Node and Express",
       ],
       softwareSkills: [
         {
@@ -208,10 +196,9 @@ const skills = {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "➤  Experience working on multiple cloud platforms",
+        "➤  Hosting and maintaining websites on virtual machine instances along with integration of databases",
+        "➤  Deploying deep learning models on cloud to use on mobile devices",
       ],
       softwareSkills: [
         {
@@ -228,13 +215,7 @@ const skills = {
             color: "#FF9900",
           },
         },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
+
         {
           skillName: "Firebase",
           fontAwesomeClassname: "simple-icons:firebase",
@@ -262,9 +243,9 @@ const skills = {
       title: "UI/UX Design",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "➤  Designing highly attractive user interface for mobile and web applications",
+        "➤  Customizing logo designs and building logos from scratch",
+        "➤  Creating the flow of application functionalities to optimize user experience",
       ],
       softwareSkills: [
         {
@@ -278,7 +259,7 @@ const skills = {
           skillName: "Cinema4D",
           fontAwesomeClassname: "simple-icons:cinema4d",
           style: {
-            color: "#FFFFFF",
+            color: "#222222",
           },
         },
 
@@ -297,54 +278,22 @@ const skills = {
 // Education Page
 const competitiveSites = {
   competitiveSites: [
-    {
-      siteName: "LeetCode",
-      iconifyClassname: "simple-icons:leetcode",
-      style: {
-        color: "#F79F1B",
-      },
-      profileLink: "https://leetcode.com/layman_brother/",
-    },
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/layman_brother",
-    },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/Quan_1919",
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@Quan391",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/laymanbrother",
-    },
+    // {
+    //   siteName: "LeetCode",
+    //   iconifyClassname: "simple-icons:leetcode",
+    //   style: {
+    //     color: "#F79F1B",
+    //   },
+    //   profileLink: "https://leetcode.com/layman_brother/",
+    // },
+    // {
+    //   siteName: "Kaggle",
+    //   iconifyClassname: "simple-icons:kaggle",
+    //   style: {
+    //     color: "#20BEFF",
+    //   },
+    //   profileLink: "https://www.kaggle.com/laymanbrother",
+    // },
   ],
 };
 
@@ -357,9 +306,9 @@ const degrees = {
       alt_name: "CSULB",
       duration: "2022 - 2024",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was elected as ACM's BeachHacks president for 2023-2024 and lead the development of BeachMuse in 2023",
+        "➤  I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
+        "➤  Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
+        "➤  I was elected as ACM's BeachHacks president for 2023-2024 and lead the development of BeachMuse in 2023",
       ],
       website_link: "https://www.csulb.edu/",
     },
@@ -370,8 +319,8 @@ const degrees = {
       alt_name: "IVC",
       duration: "2019 - 2021",
       descriptions: [
-        "⚡ Achieved 3.7 GPA through the college's Honors Program",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+        "➤  Achieved 3.7 GPA through the college's Honors Program",
+        "➤  During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
       ],
       website_link: "https://www.ivc.edu/",
     },
@@ -503,15 +452,25 @@ const experience = {
       title: "Work",
       experiences: [
         {
+          title: "Software Engineer / MES Consultant",
+          company: "Andea",
+          company_url: "https://www.andea.com/",
+          logo_path: "ANDEA.png",
+          duration: "Nov 2024 - Present",
+          location: "Brea, California",
+          description: "Designing, developing, and deploying MES software.",
+          color: "#71a73f",
+        },
+        {
           title: "Lego Robotics Coding Instructor",
           company: "Whizara",
           company_url: "https://www.whizara.com/",
           logo_path: "whizara.png",
-          duration: "Oct 2024 - Present",
+          duration: "Oct 2024 - Nov 2024",
           location: "Long Beach Beach, California",
           description:
             "I delivered engaging coding and computer science lessons to K-12 students, tailored to different skill levels using platforms like Canvas and Zoom, while managing classroom dynamics, providing personalized feedback, maintaining student records on the Whizara platform, and utilizing tools like Canva and Zoom to create interactive learning experiences that ensured student engagement and comprehension.",
-          color: "#0879bf",
+          color: "#c94848",
         },
         {
           title: "Data Entry Clerk",
@@ -539,7 +498,7 @@ const experience = {
           location: "Long Beach, California",
           description:
             "As the Executive Director of BeachHacks, a subsidiary event of the Association of Computing Machinery (ACM) at California State University, Long Beach (CSULB), I led the planning and execution of the hackathon, collaborating closely with ACM Executive Officers. I demonstrated strong leadership skills by recruiting and organizing a dynamic team, streamlining event operations for optimal efficiency, and ensuring a successful and impactful event.",
-          color: "#4285F4",
+          color: "#000000",
         },
         {
           title: "Full Stack Developer",
@@ -550,7 +509,7 @@ const experience = {
           location: "Long Beach, California",
           description:
             "Spearheaded the development of a full-stack music listening web application using React, Node, Express, and Spotify’s Web API, enabling real-time collaborative playlist creation, while coordinating with designers and project managers to set project direction and delegate tasks.",
-          color: "#4285F4",
+          color: "#000000",
         },
       ],
     },
@@ -623,7 +582,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "animated_Quan.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on LinkedIn and email for any inquiries. Feel free to reach out—I typically reply within 24 hours. I’d be happy to assist you with React, JS, Python, SQL, frontend and backend development, API integration, deployment, and any coding projects. ",
   },
   blogSection: {
     title: "Blogs",

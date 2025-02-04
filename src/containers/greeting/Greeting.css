@@ -31,12 +31,41 @@
 }
 
 .greeting-text {
+  display: inline-block;
+}
+.greeting-text {
+  /* Ensure the underline only applies to the text */
+  color: #000; /* Text color */
+  font-size: 16px; /* Example font size */
   margin-top: 80px;
   font-size: 70px;
   line-height: 1.1;
   font-family: "Google Sans Bold";
 }
 
+.greeting-text::after {
+  content: ""; /* Creates the underline */
+  position: absolute;
+  bottom: 0px; /* Positions the underline at the bottom of the text */
+  left: 50%; /* Starts the underline in the middle */
+  width: 0; /* Initially no width */
+  height: 2px; /* Thickness of the underline */
+  background-color: #000; /* Underline color */
+  transform: translateX(-50%); /* Centers the underline */
+  animation: underline-expand 2s ease forwards; /* Triggers the animation on page load */
+}
+
+@keyframes underline-expand {
+  0% {
+    width: 0; /* Start with no width */
+  }
+  30% {
+    width: 5%; /* Start with no width */
+  }
+  100% {
+    width: 100%; /* Expand to full width */
+  }
+}
 .greeting-nickname {
   font-size: 30px;
   line-height: 0px;
